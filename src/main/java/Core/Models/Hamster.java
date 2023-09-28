@@ -3,7 +3,7 @@ package Core.Models;
 import java.util.Date;
 
 public class Hamster extends Pet{
-    public Hamster(Integer id, Integer number, Date dateOfBirth, String name) {
-        super(id, number, dateOfBirth, name);
+    public Hamster(Integer id, String dateOfBirth, String name) {
+        super(id, 1, dateOfBirth, name);
     }
 }
