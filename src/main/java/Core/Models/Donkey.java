@@ -3,7 +3,7 @@ package Core.Models;
 import java.util.Date;
 
 public class Donkey extends PackAnimal{
-    public Donkey(Integer id, Integer number, Date dateOfBirth, String name) {
-        super(id, number, dateOfBirth, name);
+    public Donkey(Integer id,  String dateOfBirth, String name) {
+        super(id, 6, dateOfBirth, name);
     }
 }
